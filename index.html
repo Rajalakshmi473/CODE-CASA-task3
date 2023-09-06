@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+    <script async defer src="index.js"></script>
+</head>
+<body>
+    <h1 align="center">Tic Tac Toe</h1>
+    <h2 id="area" align="center">Turn: Player <span id="player"></span></h2>
+    <div> <button onclick="restartGame()" id="restart">RESTART</button> </div>
+    
+    <table id="game" align="center">
+        <tr>
+            <td onclick="boxClicked(1,1)"></td>
+            <td onclick="boxClicked(1,2)"></td>
+            <td onclick="boxClicked(1,3)"></td>
+        </tr>
+        <tr>
+            <td onclick="boxClicked(2,1)"></td>
+            <td onclick="boxClicked(2,2)"></td>
+            <td onclick="boxClicked(2,3)"></td>
+        </tr>
+        <tr>
+            <td onclick="boxClicked(3,1)"></td>
+            <td onclick="boxClicked(3,2)"></td>
+            <td onclick="boxClicked(3,3)"></td>
+        </tr>
+    </table>
+</body>
+</html>

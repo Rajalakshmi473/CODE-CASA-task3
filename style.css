@@ -1,0 +1,44 @@
+body {
+    background-color: hotpink;
+}
+
+h1{
+    font-family: sans-serif;
+    color:blue;
+    font-size: 60px;
+}
+
+h2{
+    font-family: sans-serif;
+    color:blue;
+    font-size: 30px;
+}
+
+
+#game td {
+    text-align: center;
+    border: 3px solid pink;
+    height: 75px;
+    width: 100px;
+    background: blue;
+    border-radius: 10px;
+    color:black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div {
+    text-align: center;
+}
+
+#restart {
+    border: 1px solid pink;
+    color: white;
+    background: red;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
